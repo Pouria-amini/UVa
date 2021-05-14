@@ -42,7 +42,6 @@ class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter out = new PrintWriter(System.out);
         String cases;
 
         while (!(cases = in.readLine()).equals("0 0")){
@@ -74,8 +73,6 @@ class Main {
             System.out.println(checkIfExists(letters, n));
 
         }
-        in.close();
-        out.close();
     }
 
 }
